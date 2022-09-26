@@ -1,0 +1,50 @@
+.footer-bg {
+  background: var(--cor-12);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  gap: 60px;
+}
+
+.footer-container h4 {
+  margin-bottom: 32px;
+}
+
+.footer-contato li {
+  margin-bottom: 5px;
+}
+
+.footer-contato li:last-child {
+  margin-bottom: 20px;
+}
+
+.footer-contato li:last-child::after {
+  background: var(--cor-11);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  width: 360px;
+}
+
+.footer-container span {
+  margin-bottom: 32px;
+}
+
+.footer-info li {
+  margin-bottom: 15px;
+}
+
+.rede-social {
+  display: flex;
+  gap: 32px;
+}
+
+.rede-social img {
+  color: white;
+}

@@ -17,3 +17,6 @@
 
 /* COMPONENTES GLOBAIS*/
 @import url(./utilidades/componentes.css);
+
+/* FOOTER */
+@import url(./footer/footer.css);
