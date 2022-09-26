@@ -54,5 +54,6 @@
   .introducao-container img {
     height: 300px;
     width: 100%;
+    object-position: center;
   }
 }
