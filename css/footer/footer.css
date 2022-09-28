@@ -62,4 +62,23 @@
   .footer-container {
     padding: 60px 20px 20px 20px;
   }
+  .rede-social {
+    margin-bottom: 32px;
+  }
+  .footer-contato li:last-child::after {
+    width: 300px;
+    background: var(--cor-10);
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .rede-social {
+    margin-bottom: 8px;
+  }
+  .footer-info li:last-child {
+    margin-bottom: 20px;
+  }
 }
