@@ -1,0 +1,8 @@
+.titulo-bg {
+  background: var(--cor-11);
+  padding: 60px 220px;
+}
+
+.titulo-container p {
+  margin-bottom: 8px;
+}

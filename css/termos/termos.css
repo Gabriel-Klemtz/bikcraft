@@ -1,0 +1,24 @@
+.termos-container {
+  padding: 120px 220px;
+}
+
+.termos-politica,
+.termos-conta {
+  margin-bottom: 48px;
+}
+
+.termos-container h2 {
+  margin-bottom: 20px;
+}
+
+.termos-container p {
+  margin-bottom: 20px;
+  max-width: 75ch;
+}
+
+@media (max-width: 600px) {
+  .titulo-bg,
+  .termos-container {
+    padding: 40px 40px;
+  }
+}
