@@ -3,6 +3,16 @@
   padding: 60px 220px;
 }
 
+.titulo-container{
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  align-items: center;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .titulo-container p {
   margin-bottom: 8px;
 }

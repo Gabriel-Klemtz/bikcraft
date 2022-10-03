@@ -9,6 +9,12 @@
   margin: 0 auto;
   padding-top: 60px;
   gap: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer-container h4 {
